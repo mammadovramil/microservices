@@ -6,3 +6,4 @@ kubectl delete deployment platforms-depl.yaml
 kubectl get pods
 kubectl get nodes
 kubectl get services
+kubectl rollout restart deployment platforms-depl
