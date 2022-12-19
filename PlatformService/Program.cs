@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+Console.WriteLine($"--> CommandService Endpoint {app.Configuration["CommandService"]}");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
