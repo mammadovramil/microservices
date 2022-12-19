@@ -1,0 +1,8 @@
+kubectl version
+kubectl apply -f platforms-depl.yaml
+kubectl apply -f platforms-np-srv.yaml
+kubectl get deployments
+kubectl delete deployment platforms-depl.yaml
+kubectl get pods
+kubectl get nodes
+kubectl get services
