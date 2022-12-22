@@ -10,3 +10,5 @@ kubectl rollout restart deployment platforms-depl
 kubectl get namespace
 kubectl get pods --namespace=ingress-nginx
 kubectl get services --namespace=ingress-nginx
+kubectl get storageclass
+kubectl get pvc
