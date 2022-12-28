@@ -12,3 +12,6 @@ kubectl get pods --namespace=ingress-nginx
 kubectl get services --namespace=ingress-nginx
 kubectl get storageclass
 kubectl get pvc
+kubectl create secret generic mssql --from-literal=SA_PASSWORD="Pa55w0rD#"
+kubectl delete secret mssql
+kubectl apply -f mssql-plat-depl.yaml
