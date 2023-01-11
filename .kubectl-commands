@@ -15,3 +15,4 @@ kubectl get pvc
 kubectl create secret generic mssql --from-literal=SA_PASSWORD="Pa55w0rD#"
 kubectl delete secret mssql
 kubectl apply -f mssql-plat-depl.yaml
+kubectl apply -f rabbitmq-depl.yaml
